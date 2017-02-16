@@ -1,0 +1,23 @@
+div{
+    font-size: 16pt;
+    font-family: Arial, serif;
+    border: solid 1px red;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#block1 {
+    height: 200px;
+    background-image: url("oops.jpg");
+}
+
+#block2 {
+    background-size: cover;
+    height: 100px;
+    width: inherit;
+}
+
+#block2 img {
+    height: 100%;
+    width: auto;
+}

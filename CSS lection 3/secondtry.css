@@ -1,0 +1,27 @@
+* {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.3);
+    line-height: 3rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+
+div:nth-of-type(2n) {
+    color: red;
+
+}
+
+div:nth-of-type(2n-1) {
+    color: blue;
+    font-size: 2em;
+}
+
+.four ~ div {
+    text-transform: lowercase;
+}
+

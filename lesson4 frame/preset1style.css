@@ -7,13 +7,15 @@
 .content {
     margin: 5px;
     font-family: Trebuchet MS, serif;
+    overflow: hidden;
 }
 
 .prefix {
+    padding-left: 3px;
+    margin-top: 2px;
     font-size: 0.8rem;
     color: #6E6E6E;
     font-weight: bold;
-    margin-top:0;
 }
 
 header p:last-of-type {
@@ -26,12 +28,13 @@ header p:last-of-type {
 }
 
 table {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .bar {
+    margin-top: 5px;
     height: 0;
-    width: 249px;
+    width: 290px;
     border: solid 2px #BEBEBE;
     border-radius: 8px;
 }
@@ -44,12 +47,14 @@ table tr:nth-of-type(3n-2) {
 }
 
 select {
+
     color: #282828;
-    letter-spacing: 1px;
-    font-weight: bold;
-    border: none;
-    background-color: #E6E6E6;
-    border-bottom: solid 3px #BE1E1E;
+    background-color: #F0F0F0;
+    padding: 5px;
+    border: 1px solid #CCC;
+    height: 34px;
+    -moz-appearance: none;
+    border-bottom: 2px solid #BE1E1E;
 }
 
 table tr:nth-of-type(3n-1) td:nth-last-child(1) {
@@ -64,6 +69,12 @@ table tr:nth-of-type(3n) {
 
 footer {
     width: 70%;
+}
+
+footer div {
+    font-weight: bold;
+    color: #282828;
+    letter-spacing: 0.05rem;
 }
 
 img {
@@ -91,12 +102,3 @@ iframe {
     height: 387px;
 }
 
-.link1 p {
-
-    text-transform: uppercase;
-    text-align: right;
-    font-size: 0.8rem;
-    margin-right: 2px;
-    font-weight: bold;
-    color: #3DBD4D;
-}

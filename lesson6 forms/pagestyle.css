@@ -1,0 +1,129 @@
+.main {
+    font-family: "Trebuchet MS", serif;
+    width: 400px;
+    background-color: #FEFEFE;
+}
+
+.main__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main__code {
+    background-color: #EDEDED;
+}
+
+.main__fontcolor_light {
+    color: #45494C;
+}
+
+.main__menu-description {
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.main__input-text ::-webkit-input-placeholder {
+    color: #45494C;
+
+}
+
+/* for mozilla (i'm usening it) */
+.main__input-text ::-moz-placeholder {
+    color: #45494C;
+}
+
+.main__input-text_h_24_w_100 {
+    height: 24px;
+    width: 100%;
+}
+
+.border-normal {
+    border: 2px solid #E3E3E3;
+    border-radius: 8px;
+}
+
+.main__select-styler_h_34_w_40 {
+    height: 34px;
+    width: 30%;
+
+}
+
+.main__select-styler {
+    overflow: hidden;
+    background: url("pointer.PNG") no-repeat right;
+
+}
+
+.main__choise {
+    color: #45494C;
+    font-weight: 500;
+}
+
+.main__choise_h_34_w_115_pad {
+    height: 34px;
+    padding: 5px;
+    width: 115%;
+
+}
+
+.main__choise_back {
+    background: transparent;
+    -webkit-appearance: none;
+    border: 0;
+
+}
+
+.radio-container_w_90 {
+    width: 90%;
+}
+
+.radio-container__radio-block_marg_5{
+    margin-top: 5px;
+}
+
+.radio-container__radio-block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.radio-container__description_padd_left_5{
+    padding-left:5px;
+}
+
+.radio-container__radio-block_backgr{
+    background: url("exit.PNG") no-repeat right;
+}
+
+.radio-container_w_85{
+    width:85%;
+}
+.checkbox-container_marg-top_10{
+    margin-top:10px;
+}
+
+.main__submit-button_style{
+    background: linear-gradient(#4CFFE3 0%, #4CD0E3 45%, #4CE4E3 100% );
+    color: white;
+    font-weight: bold;
+}
+
+.main__submit-button_h_50_w_120_marg{
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.main__submit-button_border{
+    border: 0;
+    border-radius: 10px;
+}
+
+.main__submit-button{
+
+}
+
+
+
+
+

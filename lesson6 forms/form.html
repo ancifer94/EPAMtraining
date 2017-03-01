@@ -10,49 +10,50 @@
     <form action="file.php" class="main__form">
         <span class="main__title">Form Action</span>
         <span class="main__code">_mc4wp_action</span>
-        <p class="main__description main__fontcolor_light">
+        <p class="main__description main__menu-description--fontcolor_light">
             This field will allow your visitors to choose whether
             they would like to subscribe or unsubscribe
         </p>
-        <p class="main__menu-description main__fontcolor_light">
+        <p class="main__menu-description main__menu-description--fontcolor_light">
             Field Label
         </p>
-        <input type="text" name="Form Action" class="main__input-text main__input-text_h_24_w_100 border-normal"
-               title="Form Action" placeholder="Form Action">
-        <p class="main__menu-description main__fontcolor_light">
+        <input type="text" name="Form Action" class="main__input-text main__input-text--size main__input-text--border"
+               title="Form Action">
+        <p class="main__menu-description main__menu-description--fontcolor_light">
             Choise Type
         </p>
-        <div class="main__select-styler main__select-styler_h_34_w_40 border-normal">
-            <select name="Choise Type" class="main__choise main__choise_h_34_w_115_pad main__choise_back"
+        <div class="main__select-styler main__select-styler--size main__input-text--border">
+            <select name="Choise Type" class="main__choise main__choise--font main__choise--size_and_pos main__choise--backg_and_border"
                     title="Choise Type">
                 <option value="Radio Buttons" class="main__choice_option">Radio Buttons</option>
             </select>
         </div>
-        <p class="main__menu-description main__fontcolor_light">
+        <p class="main__menu-description main__menu-description--fontcolor_light">
             Choises
         </p>
-        <fieldset class="radio-container radio-container_w_90 border-normal ">
-            <div class="radio-container__radio-block radio-container__radio-block_backgr">
+        <fieldset class="main__radio-container main__radio-container--size main__input-text--border ">
+            <div class="main__radio-block main__radio-block--backgr">
                 <input type="radio" title="subscribe" class="radio-container__radio-button">
-                <div class="radio-container__description radio-container__description_padd_left_5 radio-container_w_85
-                border-normal main__menu-description main__fontcolor_light">
+                <div class="main__radio-block-description main__radio-block-description--pos main__radio-block-description--size
+                main__radio-block-description--border main__choise--font">
                     Subscribe
                 </div>
             </div>
-            <div class="radio-container__radio-block  radio-container__radio-block_marg_5 radio-container__radio-block_backgr">
+            <div class="main__radio-block  main__radio-block--pos main__radio-block--backgr">
                 <input type="radio" title="unsubscribe" class="radio-container__radio-button">
-                <div class="radio-container__description radio-container__description_padd_left_5 radio-container_w_85
-                border-normal main__menu-description main__fontcolor_light">
+                <div class="radio-container__description main__radio-block-description--pos main__radio-block-description--size
+               main__radio-block-description--border main__choise--font">
                     Unsubscribe
                 </div>
             </div>
         </fieldset>
-        <div class="checkbox-container checkbox-container_marg-top_10 main__menu-description main__fontcolor_light">
+        <div class="checkbox-container checkbox-container--pos main__menu-description--fontcolor_light">
             <input type="checkbox" class="main__checkbutton" title="Wrap">
             <span class="main__checkbutton-description">Wrap in paragraph tags?</span>
         </div>
-        <button type="submit" value="Add to form" class="main__submit-button main__submit-button_style main__submit-button_h_50_w_120_marg
-        main__submit-button_border">Add to form
+        <button type="submit" value="Add to form" class="main__submit-button main__submit-button--backg main__submit-button--font
+        main__submit-button--size_and_pos main__submit-button--border">
+            Add to form
         </button>
 
     </form>

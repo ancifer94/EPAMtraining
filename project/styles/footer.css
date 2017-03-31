@@ -1,0 +1,20 @@
+.footer {
+    border-top: 3px solid #CDCDCD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer--licence {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.footer--link {
+    display: inline-block;
+    text-decoration: none;
+    color: #2280D3;
+    font-size: 0.8rem;
+}

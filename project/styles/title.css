@@ -1,0 +1,119 @@
+.title {
+    overflow: hidden;
+    background: url("../images/tm-sigma-00.jpg") no-repeat fixed center;
+    background-size: cover;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
+
+}
+
+.title--first_title {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title--head {
+    display: inline-block;
+    font-size: 2rem;
+    color: #212225;
+    line-height: 4rem;
+
+}
+
+.title--descr {
+    color: #737373;
+    display: block;
+    max-width: 40%;
+    padding-bottom: 30px;
+}
+
+.title--buttons {
+    padding: 0 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttons--button {
+    border: 0;
+    background-color: #5BB85D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 0 20px;
+    line-height: 2rem;
+    opacity: 0.8;
+    margin: 0 5px;
+}
+
+.buttons--button__gallery {
+    background-color: #DA5550;
+}
+
+.buttons--button:hover {
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 0 10px #A3A3A3;
+}
+
+.buttons--button:active {
+    box-shadow: 0 0 10px #656565;
+    background: linear-gradient(to top, #65CD67 0%, #3EA640 50%, #65CD67 100%);
+}
+
+.buttons--button__gallery:active {
+    box-shadow: 0 0 10px #656565;
+    background: linear-gradient(to top, #C44C48 0%, #B83833 50%, #C44C48 100%);
+}
+
+.title--desr--link {
+    color: #5D8FD1;
+    text-decoration: none;
+}
+
+.title--desr--link:hover {
+    color: #2770D1;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+
+/*------------ABOUT_US-----------------------*/
+
+.title--about_us {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------CONTACT------------------------*/
+
+.title--contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------MEDIA-------------------------*/
+
+@media screen and (max-width: 480px) {
+    .title--descr {
+        min-width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .title--descr {
+        min-width: 65%;
+    }
+}
+

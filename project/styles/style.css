@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Calibri", serif;
+    width: 90vw;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fontello-ef007289/font/fontello.eot?11429725');
+    src: url('../fontello-ef007289/font/fontello.eot?11429725#iefix') format('embedded-opentype'),
+    url('../fontello-ef007289/font/fontello.woff2?11429725') format('woff2'),
+    url('../fontello-ef007289/font/fontello.woff?11429725') format('woff'),
+    url('../fontello-ef007289/font/fontello.ttf?11429725') format('truetype'),
+    url('../fontello-ef007289/font/fontello.svg?11429725#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello1';
+    src: url('../fontello-f9391818/font/fontello.eot?93771336');
+    src: url('../fontello-f9391818/font/fontello.eot?93771336#iefix') format('embedded-opentype'),
+    url('../fontello-f9391818/font/fontello.woff2?93771336') format('woff2'),
+    url('../fontello-f9391818/font/fontello.woff?93771336') format('woff'),
+    url('../fontello-f9391818/font/fontello.ttf?93771336') format('truetype'),
+    url('../fontello-f9391818/font/fontello.svg?93771336#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
